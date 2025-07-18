@@ -39,7 +39,7 @@ header h1 {
   to { transform: translateX(0); opacity: 1; }
 }
 
-.logo-img {
+.logop-img {
   height: 100px;
   opacity: 0;
   transform: translateY(-20px);
@@ -49,6 +49,12 @@ header h1 {
 
 .nav-item {
   opacity: 0;
+  color: #8a2be2;
+}
+
+.nav-link {
+color: #8a2be2;
+
 }
 
 .nav-item:nth-child(1) { animation: fadein 1s ease forwards; animation-delay: 0.2s; }
@@ -187,6 +193,9 @@ footer h2 {
   color: #8a2be2;
 }
 
+
+
+
 .divisor-gradiente {
   height: 1.5px;
   width:30%;
@@ -226,3 +235,4 @@ footer h2 {
   text-align: center;
 
 }
+
