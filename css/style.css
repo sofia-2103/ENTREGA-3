@@ -1,7 +1,9 @@
+
+
 body {
+  background: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+  background-color: #fff4fc;
   font-family: 'Poppins', sans-serif;
-  background-color: #f8f9fa;
-  color:#ccc
 }
 
 
@@ -47,9 +49,11 @@ header h1 {
   animation-delay: 0.3s;
 }
 
+
+
 .nav-item {
   opacity: 0;
-  color: #8a2be2;
+  color:#8a2be2;
 }
 
 .nav-link {
@@ -100,7 +104,7 @@ h1, h5, h2 {
   opacity: 0;
   animation: slideUp 1s ease forwards;
   animation-delay: 0.3s;
-  color:#404e4c;
+  color: #404e4c;
   text-align:center;
 }
 
@@ -178,10 +182,6 @@ h1, h5, h2 {
   border-radius: 10px;
 }
 
-footer {
-  background-color: #004d40;
-  font-size: 0.9rem;
-}
 
 footer input,
 footer textarea {
@@ -192,7 +192,6 @@ footer textarea {
 footer h2 {
   color: #8a2be2;
 }
-
 
 
 
@@ -236,3 +235,56 @@ footer h2 {
 
 }
 
+/* Nuevos estilos para Consejos */
+.titulo-consejos {
+  font-size: 2.5rem;
+  color: #5e2bff;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.consejos-section {
+  padding: 2rem 0;
+}
+
+.consejo-item {
+  background-color: #f3f0ff;
+  border-left: 5px solid #5e2bff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.consejo-item h4 {
+  margin-top: 0;
+  color: #5e2bff;
+}
+
+/* Imagen en consejos */
+.consejos-img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 2rem auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.btn-purple {
+  background-color: #8a42f4;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.btn-purple:hover {
+  background-color: #6f30c3;
+}
+
+footer {
+  padding-bottom: 60px;
+}
+
+footer a:hover {
+  color: #8a42f4 !important;
+}
